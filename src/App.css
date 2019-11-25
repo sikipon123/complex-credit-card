@@ -1,0 +1,93 @@
+.card {
+  width: 550px;
+  height: 350px;
+  background-color: rgb(62, 62, 161);
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.creditcard {
+  color: white;
+  font-size: 40px;
+  text-align: end;
+  padding-right: 50px;
+}
+
+.puce {
+  width: 100px;
+  padding-left: 40px;
+  position: absolute;
+  top: 13%;
+}
+
+.serial-numb {
+  font-size: 25px;
+  padding-top: 20px;
+  position: absolute;
+  width: 300px;
+}
+
+.fournumb {
+  font-size: 25px;
+  width: 50px;
+  position: absolute;
+  top: 80px;
+}
+
+.holderpart {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 45px;
+  top: 25%;
+}
+
+.validthru {
+  font-size: 10px;
+  width: 15px;
+  position: absolute;
+  left: 280px;
+  top: 35%;
+}
+
+.small {
+  font-size: 8px;
+  position: absolute;
+  left: 340px;
+  top: 33%;
+}
+
+.date {
+  position: absolute;
+  left: 340px;
+  top: 35%;
+}
+
+.name {
+  font-size: 25px;
+  position: absolute;
+  top: 90px;
+  width: 300px;
+}
+
+.visamstrc {
+  width: 80px;
+  align-items: flex-end;
+  position: absolute;
+  left: 430px;
+  top: 220px;
+}
+
+.inputs form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 30%;
+  padding: 0px 20px;
+  margin: 20px;
+}
+
+.inputs form input {
+  margin: 10px;
+}
